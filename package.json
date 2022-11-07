@@ -4,6 +4,7 @@
   "bin": {
     "ddns_lambda": "bin/ddns_lambda.js"
   },
+  "license": "MIT",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
@@ -11,12 +12,13 @@
     "cdk": "cdk"
   },
   "devDependencies": {
+    "@aws-cdk/assert": "^2.49.0",
     "@types/jest": "^27.5.2",
     "@types/node": "10.17.27",
     "@types/prettier": "2.6.0",
+    "aws-cdk": "2.49.0",
     "jest": "^27.5.1",
     "ts-jest": "^27.1.4",
-    "aws-cdk": "2.49.0",
     "ts-node": "^10.9.1",
     "typescript": "~3.9.7"
   },
