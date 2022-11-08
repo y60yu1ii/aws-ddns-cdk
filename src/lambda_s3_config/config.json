@@ -1,7 +1,7 @@
 {
-	"sub.fishare.de.": {
+	"sub.example.com.": {
 		"aws_region": "ap-northeast-1",
-		"route_53_zone_id": "Z3RXA1N6WFQCGC",
+		"route_53_zone_id": "Z3RXA1N6XXXXXX",
 		"route_53_record_ttl": 60,
 		"route_53_record_type": "A",
 		"shared_secret": "mysupersecretsharedkey"

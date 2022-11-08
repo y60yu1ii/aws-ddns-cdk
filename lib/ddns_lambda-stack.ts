@@ -10,7 +10,7 @@ export class DdnsLambdaStack extends cdk.Stack {
     // The code that defines your stack goes here
 
     // enter your hosted zone name here
-    const route53Name: string = "fishare.de";
+    const route53Name: string = "example.com";
 
     const route53Zone = cdk.aws_route53.HostedZone.fromLookup(this, "Zone", {
       domainName: route53Name,

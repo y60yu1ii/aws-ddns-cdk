@@ -1,14 +1,7 @@
-# Welcome to your CDK TypeScript project
+# A Serverless DDNS based on AWS
 
-This is a blank project for CDK development with TypeScript.
+Build a DDNS service that updates route53 A record and deploys it using AWS CDK as a practice.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+Based on https://github.com/globus243/AWS-DynDNS-CDK and https://github.com/awslabs/route53-dynamic-dns-with-lambda.
 
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+Rewrite the python(lambda) part by javascript.
